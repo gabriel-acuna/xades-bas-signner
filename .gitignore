@@ -130,3 +130,7 @@ dist
 .pnp.*
 #build
 build
+#credentials
+credentials
+#files
+files
