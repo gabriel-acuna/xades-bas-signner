@@ -1,1 +1,1 @@
-console.log('XAdES-BES')
+import { sing } from "./libs/signer";
