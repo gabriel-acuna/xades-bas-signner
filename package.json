@@ -2,7 +2,11 @@
   "name": "xades-bes-signner",
   "version": "1.0.0",
   "description": "XAdES-BES Signner Impl",
-  "main": "main.ts",
+  "main": "/dist/src/main.js",
+  "types": "/dist/src/main.d.ts",
+  "files": [
+    "dist/src"
+  ],
   "scripts": {
     "start:dev": "npx nodemon",
     "lint": "eslint '{src,apps,libs,test}/**/*.ts' --fix",
