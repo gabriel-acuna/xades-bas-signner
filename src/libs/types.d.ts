@@ -4,3 +4,10 @@ declare interface PKCS88Bags {
     localKeyId?: forge.pkcs12.Bag[] | undefined;
     friendlyName?: forge.pkcs12.Bag[] | undefined;
 }
+declare function sign(params: {
+  p12Path: string;
+  p12Password: string;
+  rootElement: string;
+  xmlPath?: string;
+  xmlString?: string;
+}):string
